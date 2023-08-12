@@ -4,16 +4,6 @@ const messageElement = document.getElementById("message");
 
 var array = [];
 
-// function dis(){
-//     if(count == 0){
-//         messageElement.style.display = "block";
-//     }
-// }
-// dis();
-// let count = 0;
-
-// No pending tasks yet...
-
 function check(){
     if(count === 0)
     messageElement.style.display = "block";
@@ -38,7 +28,6 @@ function add(){
     }
     inp.value = "";
     saveData();
-    // dis();
 }
 
 list.addEventListener("click", function(e){

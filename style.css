@@ -142,8 +142,3 @@ ul li::after{
 ul li:hover::after {
     transform: scaleY(1);
 }
-
-/* .todo h2 img{
-    width: 60px;
-    margin-left: 10px;
-} */
